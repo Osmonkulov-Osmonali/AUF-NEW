@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    background-image: url('https://oboi.ws/download-26-9297/vibrance/file/');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* тёмный фон */
+    color: #f0f0f0; /* светлый текст */
+  }
+
+  header {
+    background-color: #000;
+    color: #FFD700;
+    padding: 50px;
+    text-align: center;
+  }
+
+  header img {
+    vertical-align: middle;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+
+  header h1 {
+    display: inline;
+    font-size: 24px;
+    vertical-align: middle;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFD700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.5s;
+  }
+
+  nav a {
+    padding: 15px 25px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #000;
+    color: #FFD700;
+  }
+
+  section {
+    padding: 80px 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .product {
+    background-color: #f9f9f9;
+    border: 2px solid #FFD700;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .add-to-cart {
+    margin-top: 10px;
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #searchBox {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 2px solid #FFD700;
+    border-radius: 6px;
+  }
+
+  #cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #FFD700;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+
+  #loginModal, #orderModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+
+  #loginForm, #orderForm {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  #loginForm input, #orderForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #loginForm button, #orderForm button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .accordion{
+    border-radius: 1000px;
+  }
+  .img{
+    text-align: center;
+    border-radius: 50%;
+  }
+  .div{
+    width: 50px;
+    height:100px;
+  }
+  .h1vip{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+  }
+  .div2{
+    height: 50px;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* тёмный фон */
+    color: #f0f0f0; /* светлый текст */
+  }
+  
+  section {
+    padding: 80px 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #1c1c1c; /* чуть светлее, чтобы выделялись секции */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.1); /* лёгкое жёлтое свечение */
+  }
+  
+  .product {
+    background-color: #1f1f1f;
+    border: 2px solid #FFD700;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.05);
+    color: #fff;
+  }
+  
+  .add-to-cart {
+    margin-top: 10px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #searchBox {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: #fff;
+    border: 2px solid #FFD700;
+    border-radius: 6px;
+  }
+  #loginForm, #orderForm {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #loginForm input, #orderForm input {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #FFD700;
+  }
+  .h2vip{
+    color: #fff;
+    display: flex;
+  }
+
+  body {
+    background-image: url('https://www.pvsm.ru/images/2015/01/13/tryohmernyi-fon-dlya-saita-v-realnom-vremeni-na-JavaScript-pri-pomoshi-three-js-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .accordion-item {
+    background-color: #1a1a1a;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .accordion-btn {
+    width: 100%;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+  }
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    padding: 0 15px;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  .accordion-content p {
+    margin: 15px 0;
+  }
+  .accordion-item.active .accordion-content {
+    max-height: 200px;
+    padding-bottom: 15px;
+  } 
+  .i{
+    width: 100px;
+    height: 200px;
+  
+    border-radius: 50%;
+   
+  }
+  .product{
+    width: 500px;
+    text-align: center;
+    
+    
+
+  }
+ .glavny{
+  
+  display: flex;
+ }
+ .two{
+  display: flex;
+  margin-right: 20px;
+ }
+ 
+ .nav2{
+  width: 100%;
+  height: 50px;
+  background-color: #FFD700;
+  border-radius: solid black;
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+ }
+ .a{
+  color: black;
+
+ }
+ .g{
+  width: 100px;
+  height: 50px;
+  background-color: #FFD700;
+  color: #000;
+  gap: 200px;
+ }
+ .gi1{
+border-radius: 20px;
+width: 300px;
+height: auto;
+background-color: #FFD700;
+ }
+ .gi2{
+  border-radius: 20px ;
+  width: 300px;
+height: auto;
+background-color: #FFD700;
+ }
+ .gi3{
+  border-radius: 20px ;
+  width: 300px;
+height: auto;
+background-color: #FFD700;
+ }
+ .givip{
+text-align: center;
+display: flex;
+justify-content: center;
+border-radius: 20px solid yellow;
+ }
+
+ 
+  
+  
